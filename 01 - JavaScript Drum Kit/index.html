@@ -77,7 +77,7 @@
   }
 
   const keys = Array.from(document.querySelectorAll('.key'));
-  keys.forEach(key => key.addEventListener('transitionend', removeTransition)); // add transiton end event listener
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition)); // add transiton and event listener
   window.addEventListener('keydown', playSound); // add event listener on page
 </script>
 
